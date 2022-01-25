@@ -1,0 +1,7 @@
+namespace Company
+{
+  class Company
+  {
+    
+  }
+}
