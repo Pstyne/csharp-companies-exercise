@@ -16,5 +16,20 @@ namespace Company
       _title = title;
       _startDate = DateTime.Now;
     }
+
+    public string GetName()
+    {
+      return $"{_firstName} {_lastName}";
+    }
+
+    public string GetTitle()
+    {
+      return _title;
+    }
+
+    public DateTime GetStartDate()
+    {
+      return _startDate;
+    }
   }
 }
